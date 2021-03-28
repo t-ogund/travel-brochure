@@ -46,6 +46,7 @@ li {
     justify-content: center;
     align-items: center; */
     height: 100vh;
+    clip-path: polygon(72% 0, 100% 0, 100% 83%, 36% 100%, 0 85%, 0% 0%);
     /* background-color: lightblue; */
     /* clip-path: polygon(100% 0, 100% 80%, 33% 100%, 0 81%, 0 44%, 0% 0%); */
 }
@@ -59,7 +60,7 @@ li {
     justify-content: space-between; */
     margin: 100px 10% 0 10%;
     /* height: 100%; */
-    
+    /* clip-path: polygon(69% 0, 100% 0, 100% 80%, 31% 100%, 0 82%, 0% 0%); */
 }
 
 #about-us-top {
@@ -695,6 +696,12 @@ footer {
 
     footer {
         font-size: .75em;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .post-body {
+        width: 100%
     }
   }
 
