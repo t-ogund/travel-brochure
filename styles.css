@@ -1,775 +1,707 @@
 body {
-    font-family: calibri;
-    background-color: rgb(248, 248, 248);
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    /* position: fixed; */
+  font-family: calibri;
+  background-color: rgb(248, 248, 248);
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .test {
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    /* margin: 0 10% 0 10%; */
-    /* border-bottom: 1px solid black; */
-    background-color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
 }
 
 #logo {
-    margin-left: 100px;
+  margin-left: 100px;
 }
 
 .nav-container {
-    display: flex;
-    list-style-type: none;
-    margin-right: 100px;
+  display: flex;
+  list-style-type: none;
+  margin-right: 100px;
 }
 
 li {
-    margin: .5em
+  margin: 0.5em;
 }
 
 li:hover {
-    margin: .5em;
-    cursor: pointer;
+  margin: 0.5em;
+  cursor: pointer;
 }
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 a:visited {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 #hamburger {
-    display: none;
+  display: none;
 }
 
-/* #dropdown-container {
-    display: flex;
-    justify-content: center;
-} */
 .hide {
-    display: none;
+  display: none;
 }
 
 .dropdown-nav-item {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #hero {
-    background-image: url("img/flower-eiffel.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    height: 100vh;
-    clip-path: polygon(72% 0, 100% 0, 100% 83%, 36% 100%, 0 85%, 0% 0%);
-    /* background-color: lightblue; */
-    /* clip-path: polygon(100% 0, 100% 80%, 33% 100%, 0 81%, 0 44%, 0% 0%); */
+  background-image: url("img/flower-eiffel.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  clip-path: polygon(72% 0, 100% 0, 100% 83%, 36% 100%, 0 85%, 0% 0%);
 }
 
-/* .test-container {
-    margin: 0 35% 0 35%;
-} */
-
 #about-us-container {
-    /* display: flex;
-    justify-content: space-between; */
-    margin: 100px 10% 0 10%;
-    /* clip-path: polygon(79% 0, 100% 0, 100% 80%, 27% 100%, 0 82%, 0% 0%); */
-    /* height: 100%; */
-    /* clip-path: polygon(69% 0, 100% 0, 100% 80%, 31% 100%, 0 82%, 0% 0%); */
+  margin: 100px 10% 0 10%;
 }
 
 #about-us-top {
-    display: flex;
-    /* justify-content: space-between; */
+  display: flex;
 }
 
 #about-img {
-    margin-right: 15px;
-    box-shadow: -31px 38px 0px 3px rgba(225,225,225,0.75);
--webkit-box-shadow: -31px 38px 0px 3px rgba(225,225,225,0.75);
--moz-box-shadow: -31px 38px 0px 3px rgba(225,225,225,0.75);
-    max-width: 400px;
+  margin-right: 15px;
+  box-shadow: -31px 38px 0px 3px rgba(225, 225, 225, 0.75);
+  -webkit-box-shadow: -31px 38px 0px 3px rgba(225, 225, 225, 0.75);
+  -moz-box-shadow: -31px 38px 0px 3px rgba(225, 225, 225, 0.75);
+  max-width: 400px;
 }
 
 #about-us-text {
-    width: 100%;
-    margin: 50px 0 0 15px;
+  width: 100%;
+  margin: 50px 0 0 15px;
 }
 
 #about-us-bottom {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
 }
 
 .about-icon {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .about-blurb {
-    display: flex;
+  display: flex;
 }
 
 .about-us-bottom-header {
-    margin: 0;
+  margin: 0;
 }
 .about-us-bottom-body {
-    width: 75%
+  width: 75%;
 }
 
 .image-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    /* height: 50%; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 #attractions {
-    margin-top: 100px;
-    padding: 50px 0 50px 0;
-    /* height: 100vh; */
-    text-align: center;
-    background-color: white;
-    clip-path: polygon(86% 9%, 100% 0, 100% 100%, 27% 100%, 0 100%, 0% 0%);
-    /* clip-path: polygon(80% 10%, 100% 0, 100% 80%, 27% 100%, 0 82%, 0% 0%); */
-
-    /* background-color: green; */
-    /* clip-path: polygon(100% 0, 100% 92%, 33% 100%, 0 90%, 0 0, 64% 5%); */
+  margin-top: 100px;
+  padding: 50px 0 50px 0;
+  text-align: center;
+  background-color: white;
+  clip-path: polygon(86% 9%, 100% 0, 100% 100%, 27% 100%, 0 100%, 0% 0%);
 }
 
 #attraction-img-1 {
-    background-image: url("img/eiffel.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    transition: .7s;
-
+  background-image: url("img/eiffel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.7s;
 }
 #attraction-img-1:hover {
-    background-image: url("img/eiffel.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    box-shadow: 4px 4px 15px -5px;
-    /* transition: .5s; */
+  background-image: url("img/eiffel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  box-shadow: 4px 4px 15px -5px;
+  /* transition: .5s; */
 }
 
 #attraction-img-2 {
-    background-image: url("img/coast.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    transition: .7s;
+  background-image: url("img/coast.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.7s;
 }
 #attraction-img-2:hover {
-    background-image: url("img/coast.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    box-shadow: 4px 4px 15px -5px;
+  background-image: url("img/coast.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  box-shadow: 4px 4px 15px -5px;
 }
 
 #attraction-img-3 {
-    background-image: url("img/brick-road.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    transition: .7s;
+  background-image: url("img/brick-road.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.7s;
 }
 #attraction-img-3:hover {
-    background-image: url("img/brick-road.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    box-shadow: 4px 4px 15px -5px;
+  background-image: url("img/brick-road.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  box-shadow: 4px 4px 15px -5px;
 }
 
 #attraction-img-4 {
-    background-image: url("img/bridge.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    transition: .7s;
+  background-image: url("img/bridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.7s;
 }
 #attraction-img-4:hover {
-    background-image: url("img/bridge.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    box-shadow: 4px 4px 15px -5px;
+  background-image: url("img/bridge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  box-shadow: 4px 4px 15px -5px;
 }
 
 #attraction-img-5 {
-    background-image: url("img/umbrellas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    transition: .7s;
+  background-image: url("img/umbrellas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.7s;
 }
 #attraction-img-5:hover {
-    background-image: url("img/umbrellas.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    box-shadow: 4px 4px 15px -5px;
+  background-image: url("img/umbrellas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  box-shadow: 4px 4px 15px -5px;
 }
 
 #attraction-img-6 {
-    background-image: url("img/night.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    transition: .7s;
+  background-image: url("img/night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  transition: 0.7s;
 }
 #attraction-img-6:hover {
-    background-image: url("img/night.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    width: 300px;
-    margin: 5px;
-    box-shadow: 4px 4px 15px -5px;
+  background-image: url("img/night.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  box-shadow: 4px 4px 15px -5px;
 }
 
 #latest-posts {
-    margin: 100px 10% 0 10%;
-    /* clip-path: polygon(14% 7%, 100% 0, 100% 100%, 27% 100%, 0 100%, 0% 0%); */
+  margin: 100px 10% 0 10%;
 }
 
 #latest-posts-header h2 {
-    text-align: center;
+  text-align: center;
 }
 
 #posts-gallery {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-#post-img-1 img, #post-img-2 img, #post-img-3 img {
-    margin: 15px;
-    max-width: 100%;
-    height: 200px;
-    object-fit: cover;
+#post-img-1 img,
+#post-img-2 img,
+#post-img-3 img {
+  margin: 15px;
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
-
-/* #post-img-2 img {
-    margin-left: 10px;
-    margin-right: 10px;
-} */
 
 .post-body {
-    width: 90%;
-    /* margin: 15px; */
+  width: 90%;
 }
-
-/* .attraction-img {
-    background-image: url("img/bridge.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100px;
-    width: 100px;
-} */
 
 #contact-section {
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 10% 0 10%;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 10% 0 10%;
 }
 
-.text-input, textarea {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 1px solid gray;
-    padding: 20px 0 20px 10px;
-    outline: none;
+.text-input,
+textarea {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid gray;
+  padding: 20px 0 20px 10px;
+  outline: none;
 }
 
 textarea {
-    width: 97%;
-    resize: none;
+  width: 97%;
+  resize: none;
 }
 
 textarea::placeholder {
-    font-family: arial;
+  font-family: arial;
 }
 
 #button-section {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
 }
 
 #button-section button {
-    height: 40px;
-    width: 200px;
-    background-color: white;
-    border: 2px solid gray;
-    font-family: calibri;
+  height: 40px;
+  width: 200px;
+  background-color: white;
+  border: 2px solid gray;
+  font-family: calibri;
 }
 
 #button-section button:hover {
-    height: 40px;
-    width: 200px;
-    background-color: black;
-    color: white;
-    border: 2px solid black;
-    font-family: calibri;
-    cursor: pointer;
-    transition: .5s;
+  height: 40px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-family: calibri;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 footer {
-    margin-top: 150px;
-    padding: 70px 0 70px 0;
-    background-color: black;
-    color: white;
-    display: flex;
-    /* justify-content: center; */
-    flex-direction: column;
+  margin-top: 150px;
+  padding: 70px 0 70px 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
 }
 
-#social-links   {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+#social-links {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 #credit {
-    text-align: center;
-    /* margin: 0 auto; */
+  text-align: center;
+  /* margin: 0 auto; */
 }
 
 .fa-heart {
-    color: red;
-    font-size: .75em;
+  color: red;
+  font-size: 0.75em;
 }
 
-/* @media only screen and (max-width: 992px) {
-    FOR IMAGES
-} */
-
-
 @media only screen and (max-width: 970px) {
-    header {
-        /* margin: 0 5% 0 5% */
-    }
-
-    /* #logo-container {
-        display: flex;
-        justify-content: flex-start;
-    } */
-
-    #about-us-container {
-        /* display: flex;
-        justify-content: center;
-        flex-direction: column; */
-        /* margin: 50px 10% 0 10%; */
-        height: 100%;
-    }
-    #about-us-top {
-        display: flex;
-        justify-content: center;
-    }
-    #about-img {
-       margin: 0 auto;
-    }
-    /* #about-us-top img {
-        margin: 0 auto;
-    } */
-    #hamburger {
-        display: flex;
-    }
-    .nav-item {
-        display: none;
-    }
-    .hide {
-        display: none;
-    }
-    /* #dropdown-container {
-        display: none;
-    } */
-    .dropdown-nav-item {
-        list-style-type: none;
-    }
-    .dropdown-nav-item:hover {
-        list-style-type: none;
-        cursor: pointer;
-    }
-    a {
-        color: black;
-        text-decoration: none;
-    }
-    /* a:visited {
-        color: black;
-        text-decoration: none;
-    } */
-    .transition {
-        transition: 3s;
-    }
-    #about-us-top {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    /* #about-img {
-        margin-right: 15px;
-        box-shadow: -31px 38px 0px 3px rgba(225,225,225,0.75);
-    -webkit-box-shadow: -31px 38px 0px 3px rgba(225,225,225,0.75);
-    -moz-box-shadow: -31px 38px 0px 3px rgba(225,225,225,0.75);
-    } */
-    #about-us-text {
-        width: 100%;
-        line-height: 1.7em;
-        font-size: 1.1em;
-    }
-    #about-us-bottom {
-        display: flex;
-        justify-content: center;
-        margin-top: 80px;
-        flex-direction: column;
-    }
-    .about-icon {
-        margin-right: 15px;
-    }
-    
-    .about-blurb {
-        display: flex;
-    }
-    
-    .about-us-bottom-header {
-        margin: 0;
-    }
-    .about-us-bottom-body {
-        width: 100%
-    }
-
-    #attraction-img-1 {
-        background-image: url("img/eiffel.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-    }
-    #attraction-img-1:hover {
-        background-image: url("img/eiffel.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-2 {
-        background-image: url("img/coast.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-    }
-    #attraction-img-2:hover {
-        background-image: url("img/coast.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-3 {
-        background-image: url("img/brick-road.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-    }
-    #attraction-img-3:hover {
-        background-image: url("img/brick-road.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-4 {
-        background-image: url("img/bridge.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-    }
-    #attraction-img-4:hover {
-        background-image: url("img/bridge.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-5 {
-        background-image: url("img/umbrellas.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-    }
-    #attraction-img-5:hover {
-        background-image: url("img/umbrellas.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-6 {
-        background-image: url("img/night.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-    }
-    #attraction-img-6:hover {
-        background-image: url("img/night.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 200px;
-        width: 200px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #posts-gallery {
-        display: flex;
-        /* justify-content: center; */
-        flex-direction: column;
-    }
-
-    #post-img-1, #post-img-2, #post-img-3 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .post-header, .post-body {
-        text-align: center;
-    }
-
-    #contact-section {
-        display: flex;
-        flex-direction: column;
-        margin: 0 10% 0 10%;
-    }
-    #contact, #form {
-        margin: 0 auto;
-    }
-
-    #top-inputs {
-        display: flex;
-        flex-direction: column;
-    }
-    .post-body {
-        margin: 0 auto;
-        width: 45%;
-    }
-    .post-footer {
-        text-align: center;
-    }
-    
+  #about-us-container {
+    height: 100%;
+  }
+  #about-us-top {
+    display: flex;
+    justify-content: center;
+  }
+  #about-img {
+    margin: 0 auto;
   }
 
-  @media only screen and (max-width: 768px) {
-    #attraction-img-1 {
-        background-image: url("img/eiffel.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-    }
-    #attraction-img-1:hover {
-        background-image: url("img/eiffel.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-2 {
-        background-image: url("img/coast.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-    }
-    #attraction-img-2:hover {
-        background-image: url("img/coast.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-3 {
-        background-image: url("img/brick-road.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-    }
-    #attraction-img-3:hover {
-        background-image: url("img/brick-road.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-4 {
-        background-image: url("img/bridge.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-    }
-    #attraction-img-4:hover {
-        background-image: url("img/bridge.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-5 {
-        background-image: url("img/umbrellas.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-    }
-    #attraction-img-5:hover {
-        background-image: url("img/umbrellas.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-    #attraction-img-6 {
-        background-image: url("img/night.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-    }
-    #attraction-img-6:hover {
-        background-image: url("img/night.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 100px;
-        width: 100px;
-        margin: 5px;
-        box-shadow: 4px 4px 15px -5px;
-    }
-
-    footer {
-        font-size: .75em;
-    }
+  #hamburger {
+    display: flex;
+  }
+  .nav-item {
+    display: none;
+  }
+  .hide {
+    display: none;
   }
 
-  @media only screen and (max-width: 500px) {
-    .post-body {
-        width: 100%
-    }
+  .dropdown-nav-item {
+    list-style-type: none;
+  }
+  .dropdown-nav-item:hover {
+    list-style-type: none;
+    cursor: pointer;
+  }
+  a {
+    color: black;
+    text-decoration: none;
   }
 
-  /* @media only screen and (max-width: 970px) {
+  .transition {
+    transition: 3s;
+  }
+  #about-us-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #about-us-text {
+    width: 100%;
+    line-height: 1.7em;
+    font-size: 1.1em;
+  }
+  #about-us-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    flex-direction: column;
+  }
+  .about-icon {
+    margin-right: 15px;
+  }
+
+  .about-blurb {
+    display: flex;
+  }
+
+  .about-us-bottom-header {
+    margin: 0;
+  }
+  .about-us-bottom-body {
+    width: 100%;
+  }
+
+  #attraction-img-1 {
+    background-image: url("img/eiffel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  #attraction-img-1:hover {
+    background-image: url("img/eiffel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-2 {
+    background-image: url("img/coast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  #attraction-img-2:hover {
+    background-image: url("img/coast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-3 {
+    background-image: url("img/brick-road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  #attraction-img-3:hover {
+    background-image: url("img/brick-road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-4 {
+    background-image: url("img/bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  #attraction-img-4:hover {
+    background-image: url("img/bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-5 {
+    background-image: url("img/umbrellas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  #attraction-img-5:hover {
+    background-image: url("img/umbrellas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-6 {
+    background-image: url("img/night.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+  }
+  #attraction-img-6:hover {
+    background-image: url("img/night.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #posts-gallery {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+  }
+
+  #post-img-1,
+  #post-img-2,
+  #post-img-3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .post-header,
+  .post-body {
+    text-align: center;
+  }
+
+  #contact-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10% 0 10%;
+  }
+  #contact,
+  #form {
+    margin: 0 auto;
+  }
+
+  #top-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  .post-body {
+    margin: 0 auto;
+    width: 45%;
+  }
+  .post-footer {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #attraction-img-1 {
+    background-image: url("img/eiffel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+  #attraction-img-1:hover {
+    background-image: url("img/eiffel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-2 {
+    background-image: url("img/coast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+  #attraction-img-2:hover {
+    background-image: url("img/coast.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-3 {
+    background-image: url("img/brick-road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+  #attraction-img-3:hover {
+    background-image: url("img/brick-road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-4 {
+    background-image: url("img/bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+  #attraction-img-4:hover {
+    background-image: url("img/bridge.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-5 {
+    background-image: url("img/umbrellas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+  #attraction-img-5:hover {
+    background-image: url("img/umbrellas.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+  #attraction-img-6 {
+    background-image: url("img/night.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+  }
+  #attraction-img-6:hover {
+    background-image: url("img/night.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    box-shadow: 4px 4px 15px -5px;
+  }
+
+  footer {
+    font-size: 0.75em;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .post-body {
+    width: 100%;
+  }
+}
+
+/* @media only screen and (max-width: 970px) {
     .img-row {
         flex-direction: column;
     }
