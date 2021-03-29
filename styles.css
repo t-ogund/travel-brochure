@@ -288,6 +288,12 @@ a:visited {
 #contact-section {
   display: flex;
   justify-content: space-between;
+  /* margin: 100px 10% 0 10%; */
+  background-color: white;
+  padding-bottom: 150px;
+}
+
+#contact, #form {
   margin: 100px 10% 0 10%;
 }
 
@@ -344,7 +350,7 @@ input::placeholder, textarea::placeholder {
 }
 
 footer {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   padding: 70px 0 70px 0;
   background-color: black;
   color: white;
