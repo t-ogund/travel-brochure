@@ -12,21 +12,50 @@
 <body>
     <!-- NAV -->
     <div class="test">
-    <header>
-        <div>
+    <header id="home">
+        <div id="logo-container">
             <h3 id="logo">Logo</h3>
         </div>
         <nav>
             <ul class="nav-container">
                 <li id="hamburger"><i class="fas fa-bars"></i></li>
-                <li class="nav-item">Home</li>
-                <li class="nav-item">About</li>
-                <li class="nav-item">Portfolio</li>
-                <li class="nav-item">News</li>
-                <li class="nav-item">Contact</li>
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about-us-container">About</a></li>
+                <li class="nav-item"><a href="#attractions">Attractions</a></li>
+                <li class="nav-item"><a href="#latest-posts">News</a></li>
+                <li class="nav-item"><a href="#contact-section">Contact</a></li>
             </ul>
         </nav>
+
+        <!-- <div id="dropdown-container">
+            <div id="outer-container">
+                <ul id="dropdown-nav-container">
+                    <li class="dropdown-nav-item">Home</li>
+                    <li class="dropdown-nav-item">About</li>
+                    <li class="dropdown-nav-item">Attractions</li>
+                    <li class="dropdown-nav-item">News</li>
+                    <li class="dropdown-nav-item">Contact</li>
+                </ul>
+            </div>
+        </div> -->
+
     </header>
+
+
+
+    <!-- DROPDOWN MENU -->
+    <div id="dropdown-container" class="hide">
+        <div id="outer-container">
+            <ul id="dropdown-nav-container">
+                <li class="dropdown-nav-item"><a href="#home">Home</a></li>
+                <li class="dropdown-nav-item"><a href="#about-us-container">About</a></li>
+                <li class="dropdown-nav-item"><a href="#attractions">Attractions</a></li>
+                <li class="dropdown-nav-item"><a href="#latest-posts">News</a></li>
+                <li class="dropdown-nav-item"><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
 
     <!-- HERO -->
     <div id="hero">
@@ -38,7 +67,7 @@
     <div id="about-us-container">
         <!-- ABOUT US TOP -->
         <div id="about-us-top">
-            <div id="about-img" data-aos="fade-right">
+            <div id="about-img" data-aos="fade-right" data-aos-delay="300" data-aos-duration="2000">
                 <img src="img/flowers.jpg" width="390" height="390" alt="">
             </div>
             <div id="about-us-text">

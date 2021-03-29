@@ -37,9 +37,30 @@ li:hover {
     margin: .5em;
     cursor: pointer;
 }
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
 
 #hamburger {
     display: none;
+}
+
+/* #dropdown-container {
+    display: flex;
+    justify-content: center;
+} */
+.hide {
+    display: none;
+}
+
+.dropdown-nav-item {
+    list-style-type: none;
 }
 
 #hero {
@@ -376,6 +397,15 @@ footer {
 
 
 @media only screen and (max-width: 970px) {
+    header {
+        /* margin: 0 5% 0 5% */
+    }
+
+    /* #logo-container {
+        display: flex;
+        justify-content: flex-start;
+    } */
+
     #about-us-container {
         /* display: flex;
         justify-content: center;
@@ -398,6 +428,30 @@ footer {
     }
     .nav-item {
         display: none;
+    }
+    .hide {
+        display: none;
+    }
+    /* #dropdown-container {
+        display: none;
+    } */
+    .dropdown-nav-item {
+        list-style-type: none;
+    }
+    .dropdown-nav-item:hover {
+        list-style-type: none;
+        cursor: pointer;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    /* a:visited {
+        color: black;
+        text-decoration: none;
+    } */
+    .transition {
+        transition: 3s;
     }
     #about-us-top {
         display: flex;
